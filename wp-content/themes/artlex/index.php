@@ -41,120 +41,129 @@
 	<section class="products" id="products">
 		<div class="wrapper products__wrapper">
 			<h2 class="section-heading products__heading">Продукция <sup>*</sup></h2>
-			<div class="products__category">
-				<h3 class="products__category-title">
-					<span>Полистирол</span>
-				</h3>
-				<ul class="products__list">
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">HIPS</span>
-							<span class="products__subtitle">УПМ</span>
-							<span class="products__abbr">ударопрочный<br> полистирол</span>
-							<button class="products__more" type="button">Подробнее</button>
-						</div>
-					</li>
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">GPPS</span>
-							<span class="products__subtitle">ПСОН</span>
-							<span class="products__abbr">полистирол общего назначения</span>
-							<button class="products__more" type="button">Подробнее</button>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="products__category">
-				<h3 class="products__category-title">
-					<span>Полипропилен</span>
-				</h3>
-				<ul class="products__list">
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">РР</span>
-							<span class="products__subtitle">НО</span>
-							<span class="products__abbr">гомополимер полипропилен</span>
-							<button class="products__more" type="button">Подробнее</button>
-						</div>
-					</li>
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">EVA</span>
-							<span class="products__abbr">cополимер этилена с винилацетатом</span>
-							<button class="products__more" type="button">Подробнее</button>
-						</div>
-					</li>
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">ABS</span>
-							<span class="products__abbr">сополимер акрилонетрил-бутадиен-стирол</span>
-							<button class="products__more" type="button">Подробнее</button>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="products__category">
-				<h3 class="products__category-title">
-					<span>Полиэтилен</span>
-				</h3>
-				<ul class="products__list">
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">HDPE</span>
-							<span class="products__subtitle">ПНД</span>
-							<span class="products__abbr">полиэтилен низкого давления</span>
-							<button class="products__more" type="button">Подробнее</button>
-							<section class="overlay">
-								<div class="overlay__inner">
-									<button class="overlay__close overlay__close--cross" type="button">
-										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-										     viewBox="0 0 24.179 24.179">
-											<path
-												d="M32.733,9.442a1.511,1.511,0,0,1,0,2.139L11.581,32.734a1.513,1.513,0,0,1-2.139-2.139L30.594,9.442a1.511,1.511,0,0,1,2.139,0Z"
-												transform="translate(-8.998 -8.998)" fill="#232f3e"
-												fill-rule="evenodd"/>
-											<path
-												d="M9.442,9.442a1.511,1.511,0,0,0,0,2.139L30.595,32.734a1.513,1.513,0,0,0,2.139-2.139L11.582,9.442a1.511,1.511,0,0,0-2.139,0Z"
-												transform="translate(-8.998 -8.998)" fill="#232f3e"
-												fill-rule="evenodd"/>
-										</svg>
-									</button>
-									<div class="overlay__content">
-										<h3>HDPE (ПНД)</h3>
-										<h4>полиэтилен низкого давления</h4>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut libero
-											malesuada mi hendrerit euismod ac ut arcu. Vivamus vitae commodo erat.
-											Pellentesque sit amet ultrices mi. Phasellus et rhoncus sem. Aenean luctus felis
-											erat, et varius libero luctus eu. Nullam eget massa ut mi placerat imperdiet.
-											Curabitur sagittis nibh at nisl faucibus, id tempus felis lobortis. Proin quis
-											massa turpis.
-										</p>
-										<p>
-											Sed placerat libero leo, sed vulputate mi elementum sed. Proin
-											posuere euismod ligula, ut hendrerit felis viverra mattis. Fusce ac consectetur
-											metus, in rutrum mauris. Integer id vehicula orci. Curabitur velit diam, dapibus
-											sed ultricies eu, tempor sit amet turpis. Aenean imperdiet lacus ac odio
-											fermentum, in suscipit leo pharetra. Aliquam sit amet efficitur tellus, sit amet
-											porttitor dui. Pellentesque feugiat, leo et scelerisque accumsan, sem orci
-											vulputate tortor, convallis hendrerit urna magna vitae nisl.
-										</p>
+			<div class="products__categories">
+				<div class="products__category">
+					<h3 class="products__category-title">
+						<span>Полистирол</span>
+					</h3>
+					<ul class="products__list">
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">HIPS</span>
+								<span class="products__subtitle">УПМ</span>
+								<span class="products__abbr">ударопрочный<br> полистирол</span>
+								<button class="products__more" type="button">Подробнее</button>
+							</div>
+						</li>
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">GPPS</span>
+								<span class="products__subtitle">ПСОН</span>
+								<span class="products__abbr">полистирол общего назначения</span>
+								<button class="products__more" type="button">Подробнее</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="products__category">
+					<h3 class="products__category-title">
+						<span>Сополимеры</span>
+					</h3>
+					<ul class="products__list">
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">EVA</span>
+								<span class="products__abbr">cополимер этилена с винилацетатом</span>
+								<button class="products__more" type="button">Подробнее</button>
+							</div>
+						</li>
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">ABS</span>
+								<span class="products__abbr">сополимер акрилонетрил-бутадиен-стирол</span>
+								<button class="products__more" type="button">Подробнее</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="products__category">
+					<h3 class="products__category-title">
+						<span>Полиэтилен</span>
+					</h3>
+					<ul class="products__list">
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">HDPE</span>
+								<span class="products__subtitle">ПНД</span>
+								<span class="products__abbr">полиэтилен низкого давления</span>
+								<button class="products__more" type="button">Подробнее</button>
+								<section class="overlay">
+									<div class="overlay__inner">
+										<button class="overlay__close overlay__close--cross" type="button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+											     viewBox="0 0 24.179 24.179">
+												<path
+													d="M32.733,9.442a1.511,1.511,0,0,1,0,2.139L11.581,32.734a1.513,1.513,0,0,1-2.139-2.139L30.594,9.442a1.511,1.511,0,0,1,2.139,0Z"
+													transform="translate(-8.998 -8.998)" fill="#232f3e"
+													fill-rule="evenodd"/>
+												<path
+													d="M9.442,9.442a1.511,1.511,0,0,0,0,2.139L30.595,32.734a1.513,1.513,0,0,0,2.139-2.139L11.582,9.442a1.511,1.511,0,0,0-2.139,0Z"
+													transform="translate(-8.998 -8.998)" fill="#232f3e"
+													fill-rule="evenodd"/>
+											</svg>
+										</button>
+										<div class="overlay__content">
+											<h3>HDPE (ПНД)</h3>
+											<h4>полиэтилен низкого давления</h4>
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut libero
+												malesuada mi hendrerit euismod ac ut arcu. Vivamus vitae commodo erat.
+												Pellentesque sit amet ultrices mi. Phasellus et rhoncus sem. Aenean luctus felis
+												erat, et varius libero luctus eu. Nullam eget massa ut mi placerat imperdiet.
+												Curabitur sagittis nibh at nisl faucibus, id tempus felis lobortis. Proin quis
+												massa turpis.
+											</p>
+											<p>
+												Sed placerat libero leo, sed vulputate mi elementum sed. Proin
+												posuere euismod ligula, ut hendrerit felis viverra mattis. Fusce ac consectetur
+												metus, in rutrum mauris. Integer id vehicula orci. Curabitur velit diam, dapibus
+												sed ultricies eu, tempor sit amet turpis. Aenean imperdiet lacus ac odio
+												fermentum, in suscipit leo pharetra. Aliquam sit amet efficitur tellus, sit amet
+												porttitor dui. Pellentesque feugiat, leo et scelerisque accumsan, sem orci
+												vulputate tortor, convallis hendrerit urna magna vitae nisl.
+											</p>
+										</div>
 									</div>
-								</div>
-							</section>
+								</section>
 
 
-						</div>
-					</li>
-					<li class="products__item">
-						<div class="products__item-inner">
-							<span class="products__title">LDPE</span>
-							<span class="products__subtitle">ПВД</span>
-							<span class="products__abbr">полиэтилен высокого давления</span>
-							<button class="products__more" type="button">Подробнее</button>
-						</div>
-					</li>
-				</ul>
+							</div>
+						</li>
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">LDPE</span>
+								<span class="products__subtitle">ПВД</span>
+								<span class="products__abbr">полиэтилен высокого давления</span>
+								<button class="products__more" type="button">Подробнее</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="products__category">
+					<h3 class="products__category-title">
+						<span>Полипропилен</span>
+					</h3>
+					<ul class="products__list">
+						<li class="products__item">
+							<div class="products__item-inner">
+								<span class="products__title">РР</span>
+								<span class="products__subtitle">НО</span>
+								<span class="products__abbr">гомополимер полипропилен</span>
+								<button class="products__more" type="button">Подробнее</button>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<p class="products__note"><sup>*</sup> - а также вторичные полимеры. <br> За более детальной информацией,
 				пожалуйста, обращайтесь по телефонам:<br> +38 (044) 369-50-35, +38 (067) 238-38-56</p>
