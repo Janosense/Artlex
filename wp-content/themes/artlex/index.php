@@ -201,7 +201,8 @@
 			<div class="contacts__item">
 				<div class="contacts__info">
 					<h3 class="contacts__item-title"><span>Главный офис:</span></h3>
-					г. Киев, ул. Генерала Алмазова, 18/7<br>
+					г. Киев, <br>ул. Генерала Алмазова, 18/7<br>
+					<span class="contacts__note">(бывшая ул. Кутузова)</span><br>
 					044 369 50 35<br>
 					067 238 38 56<br>
 					<?php echo antispambot( 'artleks@ukr.net' ); ?><br>
