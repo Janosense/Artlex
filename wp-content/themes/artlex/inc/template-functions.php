@@ -1,6 +1,6 @@
 <?php
 
-if ( ! function_exists( 'starter_theme_setup' ) ) {
+if ( ! function_exists( 'artlex_setup' ) ) {
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -12,12 +12,12 @@ if ( ! function_exists( 'starter_theme_setup' ) ) {
 	 * @since 1.0.0
 	 *
 	 */
-	function starter_theme_setup() {
+	function artlex_setup() {
 		/*
          * Make theme available for translation.
          * Translations can be filed in the /languages/ directory.
          */
-		load_theme_textdomain( 'starter-theme', TEMPLATE_DIR_URI . '/languages' );
+		load_theme_textdomain( 'artlex', TEMPLATE_DIR_URI . '/languages' );
 
 		/*
 		 * Let WordPress manage the document title.
@@ -94,14 +94,14 @@ if ( ! function_exists( 'starter_theme_setup' ) ) {
 		 */
 		register_nav_menus(
 			[
-				'primary'  => esc_html__( 'Primary menu', 'starter-theme' ),
-				'footer'   => esc_html__( 'Footer menu', 'starter-theme' ),
+				'primary'  => esc_html__( 'Primary menu', 'artlex' ),
+				'footer'   => esc_html__( 'Footer menu', 'artlex' ),
 			]
 		);
 
 	}
 }
-add_action( 'after_setup_theme', 'starter_theme_setup' );
+add_action( 'after_setup_theme', 'artlex_setup' );
 
 /**
  * Enqueue scripts and styles.
@@ -110,13 +110,13 @@ add_action( 'after_setup_theme', 'starter_theme_setup' );
  * @since 1.0.0
  *
  */
-function starter_theme_scripts() {
+function artlex_scripts() {
 	$theme_version = wp_get_theme()->get( 'Version' );
-	wp_enqueue_style( 'starter-theme-styles', TEMPLATE_DIR_URI . '/assets/styles/main.min.css', [], $theme_version, 'all' );
-	wp_enqueue_script( 'starter-theme-scripts', TEMPLATE_DIR_URI . '/assets/scripts/main.min.js', [], $theme_version, true );
+	wp_enqueue_style( 'artlex-styles', TEMPLATE_DIR_URI . '/assets/styles/main.min.css', [], $theme_version, 'all' );
+	wp_enqueue_script( 'artlex-scripts', TEMPLATE_DIR_URI . '/assets/scripts/main.min.js', [], $theme_version, true );
 }
 
-add_action( 'wp_enqueue_scripts', 'starter_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'artlex_scripts' );
 
 /**
  * Add "is-IE" class to body if the user is on Internet Explorer.
@@ -125,7 +125,7 @@ add_action( 'wp_enqueue_scripts', 'starter_theme_scripts' );
  * @since 1.0.0
  *
  */
-function starter_theme_add_ie_class() {
+function artlex_add_ie_class() {
 	?>
 	<script>
       if (-1 !== navigator.userAgent.indexOf('MSIE') || -1 !== navigator.appVersion.indexOf('Trident/')) {
@@ -135,7 +135,7 @@ function starter_theme_add_ie_class() {
 	<?php
 }
 
-add_action( 'wp_footer', 'starter_theme_add_ie_class' );
+add_action( 'wp_footer', 'artlex_add_ie_class' );
 
 /**
  * Adds custom classes to the array of body classes.
@@ -146,7 +146,7 @@ add_action( 'wp_footer', 'starter_theme_add_ie_class' );
  *
  * @return array
  */
-function starter_theme_body_classes( $classes ) {
+function artlex_body_classes( $classes ) {
 
 	// Helps detect if JS is enabled or not.
 	$classes[] = 'no-js';
@@ -154,7 +154,7 @@ function starter_theme_body_classes( $classes ) {
 	return $classes;
 }
 
-add_filter( 'body_class', 'starter_theme_body_classes' );
+add_filter( 'body_class', 'artlex_body_classes' );
 
 /**
  * Adds custom class to the array of posts classes.
@@ -165,12 +165,12 @@ add_filter( 'body_class', 'starter_theme_body_classes' );
  *
  * @return array
  */
-function starter_theme_post_classes( $classes ) {
+function artlex_post_classes( $classes ) {
 	$classes[] = 'entry';
 
 	return $classes;
 }
-add_filter( 'post_class', 'starter_theme_post_classes', 10, 3 );
+add_filter( 'post_class', 'artlex_post_classes', 10, 3 );
 
 /**
  * Remove the `no-js` class from body if JS is supported.
@@ -179,7 +179,7 @@ add_filter( 'post_class', 'starter_theme_post_classes', 10, 3 );
  *
  * @return void
  */
-function starter_theme_supports_js() {
+function artlex_supports_js() {
 	echo '<script>document.body.classList.remove("no-js");</script>';
 }
-add_action( 'wp_footer', 'starter_theme_supports_js' );
+add_action( 'wp_footer', 'artlex_supports_js' );

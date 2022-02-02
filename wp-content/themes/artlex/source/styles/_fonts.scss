@@ -1,17 +1,62 @@
 @font-face {
   font-family: 'Open Sans';
-  src: url('/wp-content/themes/starter-theme/assets/fonts/OpenSans-Bold.woff2') format('woff2'),
-  url('/wp-content/themes/starter-theme/assets/fonts/OpenSans-Bold.woff') format('woff');
-  font-weight: bold;
+  src: url('/wp-content/themes/artlex/assets/fonts/OpenSans-Bold.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/OpenSans-Bold.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('/wp-content/themes/starter-theme/assets/fonts/OpenSans-Regular.woff2') format('woff2'),
-  url('/wp-content/themes/starter-theme/assets/fonts/OpenSans-Regular.woff') format('woff');
+  src: url('/wp-content/themes/artlex/assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/OpenSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/wp-content/themes/artlex/assets/fonts/opensansextrabolditalic.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/opensansextrabolditalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/wp-content/themes/artlex/assets/fonts/opensanssemibolditalic.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/opensanssemibolditalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/wp-content/themes/artlex/assets/fonts/opensanssemibold.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/opensanssemibold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/wp-content/themes/artlex/assets/fonts/opensanslight.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/opensanslight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/wp-content/themes/artlex/assets/fonts/opensanslightitalic.woff2') format('woff2'),
+  url('/wp-content/themes/artlex/assets/fonts/opensanslightitalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
   font-display: swap;
 }

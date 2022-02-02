@@ -1,3 +1,3 @@
-import module from "./modules/module";
+import toggle_product_info from './modules/toggle-product-info';
 
-module();
+toggle_product_info();

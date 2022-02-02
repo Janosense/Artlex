@@ -6,4 +6,4 @@ function crb_load() {
 
 add_action( 'after_setup_theme', 'crb_load' );
 
-require_once get_template_directory() . '/inc/carbon-fields/post-type-page.php';
+//require_once get_template_directory() . '/inc/carbon-fields/post-type-page.php';

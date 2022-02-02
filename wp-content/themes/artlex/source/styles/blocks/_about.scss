@@ -1,0 +1,26 @@
+.about {
+  padding: 40px 0;
+  //background-color: #121256;
+  background-color: #f1f1f1;
+
+  @media (min-width: 1440px) {
+    padding: 72px 0;
+  }
+}
+
+.about__heading {
+  //color: #FFF;
+}
+
+.about__content {
+  //color: #FFF;
+  font-size: 16px;
+
+  p {
+    margin: 0 0 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
